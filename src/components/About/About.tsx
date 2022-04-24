@@ -33,7 +33,7 @@ I am a dedicated person who pursues his dreams, hardworking and results oriented
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInLeft" delay={0.7 * 1000}>
-          <h3>Aqui estão as minhas principais habilidades:</h3>
+          <h3>Here are my main skills:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
 
