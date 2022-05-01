@@ -87,7 +87,7 @@ export function Form() {
           disabled={state.submitting || !validEmail || !message || !isHuman}
         >
 
-          To send
+          Submit
         </button>
       </form>
       <ToastContainer />
