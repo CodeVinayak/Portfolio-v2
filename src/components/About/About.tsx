@@ -1,6 +1,7 @@
 import { Container } from "./styles";
 
 import profileImage from "../../assets/profile-image.jpg"
+import wordpress from  "src\assets\wordpress.svg";
 import cssIcon from "../../assets/css-icon.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
@@ -37,6 +38,11 @@ I am a dedicated person who pursues his dreams, hardworking and results oriented
         </ScrollAnimation>
         <div className="hard-skills">
 
+        <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.1 * 1000}>
+              <img src={wordpress} alt="Wordpress" />
+            </ScrollAnimation>
+          </div>
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.1 * 1000}>
               <img src={reactIcon} alt="React" />
