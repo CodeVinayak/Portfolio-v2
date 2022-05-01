@@ -15,7 +15,7 @@ export function Footer() {
       </a>
       <div>
         <p>
-        This website was made with<img src={reactIcon} alt="React" /> is very
+        This website was made with <img src={reactIcon} alt="React" /> by Vinayak Singh
           <span>❤️</span>
         </p>
       </div>
