@@ -30,7 +30,7 @@ export function Portfolio() {
               </p>
             </div>
             <footer>
-              <ul className="tech-list">W
+              <ul className="tech-list">
                 <li>Wordpress</li>
                 {/* <li>Express</li>
               <li>MySql</li>
@@ -60,9 +60,9 @@ export function Portfolio() {
             </div>
             <footer>
               <ul className="tech-list">
-                <li>React</li>
-                <li>Typescript</li>
-                <li>Styled Components</li>
+                <li>Wordpress</li>
+                {/* <li>Typescript</li>
+                <li>Styled Components</li> */}
               </ul>
             </footer>
           </div>
@@ -79,8 +79,8 @@ export function Portfolio() {
               </div>
             </header>
             <div className="body">
-              <h3>Medical Appointment Website</h3>
-              <p>Your Customers Can Schedule an Appointment with You in under a Minute. <a href="https://drrohitdamor.vinayaksingh.in/">DR. ROHIT DAMOR</a>
+              <h3>Medical Appointment Booking</h3>
+              <p>Customers Can Schedule an Appointment with You in under a Minute. <a href="https://drrohitdamor.vinayaksingh.in/">DR. ROHIT DAMOR</a>
               </p>
             </div>
             <footer>
