@@ -22,16 +22,16 @@ export function Portfolio(){
           </div>
           </header>
           <div className="body">
-            <h3>FCallendar</h3>
-            <p>Uma aplicação Web realizada durante o Hackathon do programa de formação da <a href="https://www.fcamara.com.br/"> FCamara</a>. Esta aplicação serve para ajudar na volta do trabalho remoto para o presencial.
+            <h3>MadeWithLuv</h3>
+            <p>E-commerce Website made with Wordpress and woocommerce <a href="https://madewithluv.in/"> MadeWithLuv</a>. Complete Website is developed by myself only from Bootstrap till today date.
             </p>
           </div>
           <footer>
-            <ul className="tech-list">
-              <li>Node</li>
-              <li>Express</li>
+            <ul className="tech-list">W
+              <li>Wordpress</li>
+              {/* <li>Express</li>
               <li>MySql</li>
-              <li>Ejs</li>
+              <li>Ejs</li> */}
             </ul>
           </footer>
         </div>
