@@ -1,7 +1,7 @@
 import { Container } from "./styles";
 
 import profileImage from "../../assets/profile-image.jpg"
-import wordpress from  "src\assets\wordpress.svg";
+import wordpress from "../../assets/wordpress.svg";
 import cssIcon from "../../assets/css-icon.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
