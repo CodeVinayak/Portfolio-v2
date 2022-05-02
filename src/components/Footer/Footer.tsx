@@ -4,6 +4,7 @@ import reactIcon from '../../assets/react-icon.svg'
 import linkedinIcon from '../../assets/linkedin.png'
 import githubIcon from '../../assets/github.png'
 import whatsapp from '../../assets/whatsapp.png'
+import telegram from '../../assets/telegram.png'
 import instagramIcon from '../../assets/instagram.png'
 import discordIcon from '../../assets/discord.png'
 
@@ -16,8 +17,8 @@ export function Footer() {
       </a>
       <div>
         <p>
-        This Website was made with <img src={reactIcon} alt="React" /> 
-        {/* <span>❤️</span> */}
+          This Website was made with <img src={reactIcon} alt="React" />
+          {/* <span>❤️</span> */}
         </p>
       </div>
 
@@ -29,7 +30,6 @@ export function Footer() {
         >
           <img src={linkedinIcon} alt="Linkedin" />
         </a>
-
         <a
           href="https://github.com/CodeVinayak/"
           target="_blank"
@@ -37,15 +37,20 @@ export function Footer() {
         >
           <img src={githubIcon} alt="GitHub" />
         </a>
-
-         <a
+        <a
           href="https://api.whatsapp.com/send/?phone=%2B919630576848&text=Hello+Vinayak"
           target="_blank"
           rel="noreferrer"
         >
           <img src={whatsapp} alt="Whatsapp" />
         </a>
-
+        <a
+          href="https://t.me/CodeVinayak"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={telegram} alt="telegram" />
+        </a>
         {/* <a
           href="https://www.instagram.com"
           target="_blank"
