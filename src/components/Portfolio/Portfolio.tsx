@@ -25,20 +25,42 @@ export function Portfolio() {
               </div>
             </header>
             <div className="body">
-              <h3>MadeWithLuv</h3>
-              <p>E-commerce Website made with Wordpress and woocommerce <a href="https://madewithluv.in/"> MadeWithLuv</a>. Complete Website is developed by myself only from Bootstrap till today date.
+              <h3>E-commerce Website</h3>
+              <p>E-commerce Website made with the help of Wordpress and woocommerce. This website is developed for the online shopping.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
                 <li>Wordpress</li>
-                {/* <li>Express</li>
-              <li>MySql</li>
-              <li>Ejs</li> */}
               </ul>
             </footer>
           </div>
         </ScrollAnimation>
+
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://drrohitdamor.vinayaksingh.in/" target="_blank" rel="noreferrer">
+                  <img src={externalLinkIcon} alt="Visitar site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>Online Appointment Booking</h3>
+              <p>Customers Can Schedule an Appointment with You in under a Minute. This website is speically designed for Medical Appointment booking for our client <a href="https://drrohitdamor.vinayaksingh.in/"> DR. ROHIT DAMOR</a>
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Wordpress</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
 
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
@@ -54,33 +76,8 @@ export function Portfolio() {
               </div>
             </header>
             <div className="body">
-              <h3>Mitul Industries</h3>
-              <p>Manufacturing industrial Websites for Product Show and for information
-              </p>
-            </div>
-            <footer>
-              <ul className="tech-list">
-                <li>Wordpress</li>
-                {/* <li>Typescript</li>
-                <li>Styled Components</li> */}
-              </ul>
-            </footer>
-          </div>
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-              <div className="project-links">
-                <a href="https://drrohitdamor.vinayaksingh.in/" target="_blank" rel="noreferrer">
-                  <img src={externalLinkIcon} alt="Visitar site" />
-                </a>
-              </div>
-            </header>
-            <div className="body">
-              <h3>Medical Appointment Booking</h3>
-              <p>Customers Can Schedule an Appointment with You in under a Minute. <a href="https://drrohitdamor.vinayaksingh.in/">DR. ROHIT DAMOR</a>
+              <h3>Manufacturin Industries</h3>
+              <p>Manufacturing Industrial Website for Showing Product and information about their business in online world.
               </p>
             </div>
             <footer>
@@ -96,7 +93,7 @@ export function Portfolio() {
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
               <div className="project-links">
-                <a href="https://portfolio.vinayaksingh.in/" target="_blank" rel="noreferrer">
+                <a href="https://portfoliov1.vinayaksingh.in/" target="_blank" rel="noreferrer">
                   <img src={externalLinkIcon} alt="Visitar site" />
                 </a>
               </div>
@@ -124,15 +121,16 @@ export function Portfolio() {
                 {/* <a href="https://github.com/" target="_blank" rel="noreferrer">
                 <img src={githubIcon} alt="Visitar site" />
               </a> */}
-                <a href="www.money.vinayaksingh.in" target="_blank" rel="noreferrer">
+                <a href="https://finance.vinayaksingh.in/" target="_blank" rel="noreferrer">
+                <a href="" target="_blank" rel="noreferrer">
                   <img src={externalLinkIcon} alt="Visitar site" />
                 </a>
               </div>
             </header>
             <div className="body">
-              <h3>VSmoney</h3>
+              <h3>FinTech</h3>
               <p>
-                A finance manager to analyze your earnings, expenses and have greater control over your finances.
+                A Financial technology related website.This website Work is in process.Comming soon..
               </p>
             </div>
             <footer>
@@ -152,7 +150,7 @@ export function Portfolio() {
                 {/* <a href="https://github.com/" target="_blank" rel="noreferrer">
                 <img src={githubIcon} alt="Visitar site" />
               </a> */}
-                <a href="www.music.vinayaksingh.in" target="_blank" rel="noreferrer">
+                <a href="https://music.vinayaksingh.in/" target="_blank" rel="noreferrer">
                   <img src={externalLinkIcon} alt="Visitar site" />
                 </a>
               </div>
@@ -160,7 +158,7 @@ export function Portfolio() {
             <div className="body">
               <h3>Music Library</h3>
               <p>
-                An interface for a music library, similar to Spotify.
+                An simple and clean interface for a short music library.
               </p>
             </div>
             <footer>
