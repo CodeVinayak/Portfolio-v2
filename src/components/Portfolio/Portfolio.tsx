@@ -130,7 +130,7 @@ export function Portfolio() {
             <div className="body">
               <h3>FinTech</h3>
               <p>
-                A Financial technology related website.This website Work is in process.Comming soon..
+                A Financial technology related website.This website Work is in process.Comming soon...
               </p>
             </div>
             <footer>
