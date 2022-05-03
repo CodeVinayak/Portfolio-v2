@@ -122,7 +122,6 @@ export function Portfolio() {
                 <img src={githubIcon} alt="Visitar site" />
               </a> */}
                 <a href="https://finance.vinayaksingh.in/" target="_blank" rel="noreferrer">
-                <a href="" target="_blank" rel="noreferrer">
                   <img src={externalLinkIcon} alt="Visitar site" />
                 </a>
               </div>
