@@ -95,7 +95,7 @@ I am a dedicated person who pursues his dreams, hardworking and results oriented
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.6 * 1000}>
-          <img src="src\assets\profile-image.jpg" alt="Vinayak Singh" />
+          <img src={profileImage} alt="Vinayak Singh" />
         </ScrollAnimation>
       </div>
     </Container>
