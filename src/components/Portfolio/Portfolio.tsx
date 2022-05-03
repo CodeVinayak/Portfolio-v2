@@ -76,7 +76,7 @@ export function Portfolio() {
               </div>
             </header>
             <div className="body">
-              <h3>Manufacturin Industries</h3>
+              <h3>Manufacturing Industries</h3>
               <p>Manufacturing Industrial Website for Showing Product and information about their business in online world.
               </p>
             </div>
