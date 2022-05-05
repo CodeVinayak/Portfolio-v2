@@ -129,7 +129,7 @@ export function Portfolio() {
             <div className="body">
               <h3>Blog</h3>
               <p>
-              Blog about Best Online Shopping Deals & Offers. Enjoy Savings , Add Bookmark our website. Never Miss any Loot Deals and Tricks.
+              Blog about Best Online Shopping Deals and Offers. Enjoy Savings , Add Bookmark our website. Never Miss any Loot Deals and Tricks.
               </p>
             </div>
             <footer>
