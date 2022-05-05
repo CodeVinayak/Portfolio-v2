@@ -121,21 +121,21 @@ export function Portfolio() {
                 {/* <a href="https://github.com/" target="_blank" rel="noreferrer">
                 <img src={githubIcon} alt="Visitar site" />
               </a> */}
-                <a href="https://finance.vinayaksingh.in/" target="_blank" rel="noreferrer">
+                <a href="https://blog.vinayaksingh.in/" target="_blank" rel="noreferrer">
                   <img src={externalLinkIcon} alt="Visitar site" />
                 </a>
               </div>
             </header>
             <div className="body">
-              <h3>FinTech</h3>
+              <h3>Blog</h3>
               <p>
-                A Financial technology related website.This website Work is in process.Comming soon...
+              Blog about Best Online Shopping Deals & Offers. Enjoy Savings , Add Bookmark our website. Never Miss any Loot Deals and Tricks.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>VueJs</li>
-                <li>JavaScript</li>
+                <li>Wordpress</li>
+                {/* <li>JavaScript</li> */}
               </ul>
             </footer>
           </div>
