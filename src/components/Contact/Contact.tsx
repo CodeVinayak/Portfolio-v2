@@ -4,10 +4,10 @@ import phoneIcon from "../../assets/phone-icon.svg"
 import { Form } from "../Form/Form";
 
 
-export function Contact(){
+export function contact(){
 
   return(
-    <Container id="contato">
+    <Container id="contact">
       <header>
         <h2>Contact me</h2>
         <p>If you've seen my potential or want to talk to me, don't hesitate to send me a message.</p>

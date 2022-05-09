@@ -13,9 +13,9 @@ import vueIcon from "../../assets/vue-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 
 
-export function About(){
+export function about(){
   return(
-    <Container id="About">
+    <Container id="about">
       <div className="about-text">
         <ScrollAnimation animateIn="fadeInLeft">
           <h2>About me</h2>
