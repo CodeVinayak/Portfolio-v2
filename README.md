@@ -1,4 +1,4 @@
-# New Portfolio of Vinayak Singh
+# Portfolio of Vinayak Singh
 
 This project was created with CRA (Create React App)
 
