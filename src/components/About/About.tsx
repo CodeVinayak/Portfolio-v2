@@ -21,7 +21,7 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000}>
           <p>
-            My name is Vinayak Singh, I'm a computer technician with a great passion for programming. I am passionate about delivering solutions that add to people's lives and at the same time challenge me. Improved my skills as a Front-End and Back-End developer</p>
+            My name is Vinayak Singh, I'm a Software Engineer with a great passion for programming. I am passionate about delivering solutions that add to people's lives and at the same time challenge me. Improved my skills as a Front-End and Back-End developer</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
 
@@ -44,47 +44,47 @@ export function About() {
             </ScrollAnimation>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.1 * 1000}>
+            <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
               <img src={shopify} alt="shopify" />
             </ScrollAnimation>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.1 * 1000}>
+            <ScrollAnimation animateIn="fadeInUp" delay={0.3 * 1000}>
               <img src={reactIcon} alt="React" />
             </ScrollAnimation>
           </div>
 
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
+            <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
               <img src={vueIcon} alt="Vue" />
             </ScrollAnimation>
           </div>
 
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.3 * 1000}>
+            <ScrollAnimation animateIn="fadeInUp" delay={0.5 * 1000}>
               <img src={jsIcon} alt="JavaScript" />
             </ScrollAnimation>
           </div>
 
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
+            <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
               <img src={htmlIcon} alt="Html" />
             </ScrollAnimation>
           </div>
 
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.5 * 1000}>
+            <ScrollAnimation animateIn="fadeInUp" delay={0.7 * 1000}>
               <img src={cssIcon} alt="Css" />
             </ScrollAnimation>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
+            <ScrollAnimation animateIn="fadeInUp" delay={0.8* 1000}>
               <img src={nodeIcon} alt="Node" />
             </ScrollAnimation>
           </div>
 
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.7 * 1000}>
+            <ScrollAnimation animateIn="fadeInUp" delay={0.9 * 1000}>
               <img src={typescriptIcon} alt="Typescript" />
             </ScrollAnimation>
           </div>
@@ -93,7 +93,7 @@ export function About() {
         </div>
       </div>
       <div className="about-image">
-        <ScrollAnimation animateIn="fadeInRight" delay={0.6 * 1000}>
+        <ScrollAnimation animateIn="fadeInRight" delay={0.10 * 1000}>
           <img src={profileImage} alt="Vinayak Singh" />
         </ScrollAnimation>
       </div>
