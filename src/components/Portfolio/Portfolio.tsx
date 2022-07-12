@@ -19,7 +19,7 @@ export function Portfolio() {
                 {/* <a href="https://github.com/" target="_blank" rel="noreferrer">
               <img src={githubIcon} alt="GitHub" />
             </a> */}
-                <a href="https://madewithluv.in/" target="_blank" rel="noreferrer">
+                <a href="https://ecommerce.vinayaksingh.in/" target="_blank" rel="noreferrer">
                   <img src={externalLinkIcon} alt="Visitar site" />
                 </a>
               </div>
