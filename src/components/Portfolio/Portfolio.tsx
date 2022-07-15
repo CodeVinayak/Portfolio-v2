@@ -160,7 +160,7 @@ export function Portfolio() {
             <div className="body">
               <h3>Spotify Music Library</h3>
               <p>
-              A modern Web-Based music player made using ReactJS.Clean UI with dark mode,High-quality online music streaming with no lag.,Ad Free,Download music to your system,Localised Music.
+              A modern Web-Based music player made using ReactJS.Clean UI with dark mode, High-quality online music streaming with no lag,Ad Free, Download music to your system, Global Music.
               </p>
             </div>
             <footer>
