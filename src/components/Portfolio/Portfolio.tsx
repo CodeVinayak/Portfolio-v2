@@ -154,22 +154,22 @@ export function Portfolio() {
                 {/* <a href="https://github.com/" target="_blank" rel="noreferrer">
                 <img src={githubIcon} alt="Visitar site" />
               </a> */}
-                <a href="https://music.vinayaksingh.in/" target="_blank" rel="noreferrer">
+                <a href="https://spotify.vinayaksingh.in/" target="_blank" rel="noreferrer">
                   <img src={externalLinkIcon} alt="Visitar site" />
                 </a>
               </div>
             </header>
             <div className="body">
-              <h3>Music Library</h3>
+              <h3>Spotify</h3>
               <p>
-                An simple and clean interface for a short music library.
+              A modern Web-Based music player made using ReactJS. Clean UI with dark mode, High-quality online music streaming with no lag, Ad Free, Download music to your system, Global Music.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Html</li>
-                <li>Css</li>
-                <li>JavaSript</li>
+                <li>React</li>
+                <li>React Redux</li>
+                <li>Redux</li>
               </ul>
             </footer>
           </div>
