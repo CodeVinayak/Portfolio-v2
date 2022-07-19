@@ -27,7 +27,7 @@ export function Portfolio() {
             </header>
             <div className="body">
               <h3>E-commerce Website + App </h3>
-              <p>E-commerce Website made with the help of Wordpress and woocommerce. This website and app is developed for the online shopping.
+              <p>The Website is made with the help of Wordpress and woocommerce. The Android app is made with the help of Java that converted website into app.
               </p>
             </div>
             <footer>
