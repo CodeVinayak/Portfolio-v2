@@ -1,6 +1,6 @@
 import { Container } from "./styles";
 import githubIcon from "../../assets/github-icon.svg"
-import DownloadIcon from "src\assets\download-app.svg"
+import DownloadIcon from "src\assets\download.png"
 import externalLinkIcon from "../../assets/external-link-icon.svg"
 import ScrollAnimation from "react-animate-on-scroll";
 
