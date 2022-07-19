@@ -33,6 +33,7 @@ export function Portfolio() {
             <footer>
               <ul className="tech-list">
                 <li>Wordpress</li>
+                <li>Java</li>
               </ul>
             </footer>
           </div>
