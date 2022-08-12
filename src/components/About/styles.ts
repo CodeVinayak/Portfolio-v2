@@ -57,7 +57,7 @@ export const Container = styled.section`
 
   @media only screen and (max-width: 480px) {
     .about-image {
-      max-width: 100%;
+      max-width: 80%;
       margin-top: 4rem;
     }
   }
@@ -68,7 +68,7 @@ export const Container = styled.section`
 
     .about-image{
       display: flex;
-      max-width: 100%;
+      max-width: 80%;
     }
     .hard-skills{
       justify-content: center;
