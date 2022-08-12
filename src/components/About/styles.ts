@@ -46,7 +46,7 @@ export const Container = styled.section`
     text-align: center;
    img{
      margin-top: 2rem;
-     width: 80%;
+     width: 100%;
      filter: grayscale(0);
      transition: filter 0.5s;
      &:hover{
@@ -57,7 +57,7 @@ export const Container = styled.section`
 
   @media only screen and (max-width: 480px) {
     .about-image {
-      max-width: 80%;
+      max-width: 100%;
       margin-top: 4rem;
     }
   }
@@ -68,7 +68,7 @@ export const Container = styled.section`
 
     .about-image{
       display: flex;
-      max-width: 80%;
+      max-width: 100%;
     }
     .hard-skills{
       justify-content: center;
