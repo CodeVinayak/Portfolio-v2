@@ -31,13 +31,14 @@ export function Portfolio() {
               <h3>E-commerce Website  </h3>
               {/* <p>The Website is made with the help of Wordpress and woocommerce. The Android app is made with the help of Java that converted website into app.
               </p> */}
-              <p>The Website is made with the help of Wordpress and woocommerce. 
+              <p>
+                This E-commerce Website is made to Sell Home Decore Products. 
               </p>
             </div>
             <footer>
               <ul className="tech-list">
                 <li>Wordpress</li>
-                <li>Java</li>
+                <li>Woocommerce</li>
               </ul>
             </footer>
           </div>
@@ -99,24 +100,24 @@ export function Portfolio() {
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
               <div className="project-links">
-                <a href="https://github.com/CodeVinayak/Portfolio-v1" target="_blank" rel="noreferrer">
+                {/* <a href="https://github.com/CodeVinayak/Portfolio-v1" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visitar site" />
-                </a>
-                <a href="https://portfoliov1.vinayaksingh.in/" target="_blank" rel="noreferrer">
+                </a> */}
+                <a href="https://justmedicalbooks.com/" target="_blank" rel="noreferrer">
                   <img src={externalLinkIcon} alt="Visitar site" />
                 </a>
               </div>
             </header>
             <div className="body">
-              <h3>Portfolio V1</h3>
-              <p>An alternate version of my portfolio, using HTML,CSS and JAVASCRIPT.
+              <h3>Sell Medical Books</h3>
+              <p>I have also made an website to direct distributor of all the major medical books online.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
+                <li>Wordpress</li>
+                <li>Woocommerce</li>
+              
               </ul>
             </footer>
           </div>
