@@ -7,7 +7,7 @@ export const Container = styled.section`
   h2{
     text-align: center;
     font-size: 4rem;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
   }
 
   .projects{
