@@ -25,8 +25,9 @@ export const Container = styled.section`
 
   h2{
     display: inline-block;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     // border-bottom: 0.2rem solid var(--blue);
+    font-size :3rem;
   }
 
   h3{
