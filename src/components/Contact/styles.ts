@@ -22,7 +22,7 @@ export const Container = styled.section`
     justify-content: center;
     gap: 2rem;
     place-items: center;
-    margin-top: 8rem;
+    margin-top: 4rem;
     div{
       display: flex;
       align-items: center;
