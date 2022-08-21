@@ -57,7 +57,7 @@ export function Portfolio() {
               </div>
             </header>
             <div className="body">
-              <h3>Home Decor Site</h3>
+              <h3>Home Decor </h3>
               <p>
                 This E-commerce Website is made by Vinayak Singh for my client to Sell Home Decore Products online.
               </p>
@@ -107,7 +107,7 @@ export function Portfolio() {
               </div>
             </header>
             <div className="body">
-              <h3>Dr. Appointment Booking</h3>
+              <h3>Appointment Booking</h3>
               <p>This website is speically designed for Medical Appointment booking for our client <a href="https://drrohitdamor.vinayaksingh.in/"> DR. ROHIT DAMOR</a>. Customers Can Schedule an Appointment with You in under a Minute.
               </p>
             </div>
@@ -161,7 +161,7 @@ export function Portfolio() {
               </div>
             </header>
             <div className="body">
-              <h3>Spotify</h3>
+              <h3>Desktop Spotify</h3>
               <p>
                 A modern Web-Based music player made using ReactJS. Clean UI with dark mode, High-quality online music streaming with no lag, Ad Free, Download music to your system, Global Music.
               </p>
