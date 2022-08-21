@@ -5,6 +5,9 @@ import { About } from "../About/About";
 import { Contact } from "../Contact/Contact";
 import { Portfolio } from "../Portfolio/Portfolio";
 
+import shopify from "../../assets/shopify.svg";
+import wordpress from "../../assets/wordpress.svg";
+
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
 import htmlIcon from "../../assets/html-icon.svg";
@@ -158,6 +161,16 @@ export function Main() {
                 },
                 {
                   "src": cssIcon,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": wordpress,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": shopify,
                   "width": 20,
                   "height": 20
                 },
