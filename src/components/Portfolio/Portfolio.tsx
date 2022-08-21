@@ -22,7 +22,7 @@ export function Portfolio() {
                 {/* <a href="https://github.com/" target="_blank" rel="noreferrer">
                 <img src={githubIcon} alt="GitHub" />
               </a> */}
-               <a href="https://github.com/" target="_blank" rel="noreferrer">
+               <a href="https://ecommerce.vinayaksingh.in/wp-content/uploads/2022/08/Ecommerce.apk" target="_blank" rel="noreferrer">
                <img src={DownloadApp} alt="Download App" />
               </a>
                 <a href="https://ecommerce.vinayaksingh.in/" target="_blank" rel="noreferrer">
