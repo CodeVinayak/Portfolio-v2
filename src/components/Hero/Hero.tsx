@@ -6,13 +6,15 @@ import { NavHashLink } from "react-router-hash-link"
 import linkedinIcon from '../../assets/linkedin.png'
 import githubIcon from '../../assets/github.png'
 import whatsapp from '../../assets/whatsapp.png'
+import Hello from  '../../assets/Hello.gif'
 import telegram from '../../assets/telegram.png'
 export function Hero() {
   return (
     <Container id="home">
       <div className="hero-text">
         <ScrollAnimation animateIn="fadeInUp">
-          <p>Hello 👋, I'm</p>
+          <p>Hello<img src={Hello} alt="Hello" />
+            </a> 👋, I'm</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
           <h1>Vinayak Singh</h1>
