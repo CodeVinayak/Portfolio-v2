@@ -26,6 +26,19 @@ export const Container = styled.section`
       margin-bottom: 5rem;
     }
   }
+// New added
+  .social-media{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+
+    img,span{
+      font-size: 3rem;
+      width: 3rem;
+    }
+  }
+
 
   .button{
     margin-top: 5rem;
