@@ -31,6 +31,13 @@ export function Hero() {
           </BrowserRouter>
         </ScrollAnimation>
       </div>
+     
+
+      <div className="hero-image">
+        <ScrollAnimation animateIn="fadeInRight" delay={1 * 1000}>
+          <img src={Illustration} alt="Ilustração" />
+        </ScrollAnimation>
+      </div>
       <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
       <div className="social-media"><a
         href="https://www.linkedin.com/in/codevinayak"
@@ -61,12 +68,7 @@ export function Hero() {
           <img src={telegram} alt="telegram" />
         </a></div>
         </ScrollAnimation>
-
-      <div className="hero-image">
-        <ScrollAnimation animateIn="fadeInRight" delay={1 * 1000}>
-          <img src={Illustration} alt="Ilustração" />
-        </ScrollAnimation>
-      </div>
     </Container>
+
   )
 }
