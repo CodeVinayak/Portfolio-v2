@@ -69,7 +69,7 @@ export const Container = styled.section`
 
     .about-image{
       display: flex;
-      max-width: 100%;
+      max-width: 90%;
     }
     .hard-skills{
       justify-content: center;
