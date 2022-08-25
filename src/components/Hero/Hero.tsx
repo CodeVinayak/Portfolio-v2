@@ -28,7 +28,9 @@ export function Hero() {
           <BrowserRouter>
             <NavHashLink smooth to="#contact" className="button">Contact</NavHashLink>
           </BrowserRouter>
-          <div className="social-media"><a
+        </ScrollAnimation>
+      </div>
+      <div className="social-media"><a
             href="https://www.linkedin.com/in/codevinayak"
             target="_blank"
             rel="noreferrer"
@@ -56,9 +58,6 @@ export function Hero() {
             >
               <img src={telegram} alt="telegram" />
             </a></div>
-
-        </ScrollAnimation>
-      </div>
       <div className="hero-image">
         <ScrollAnimation animateIn="fadeInRight" delay={1 * 1000}>
           <img src={Illustration} alt="Ilustração" />
