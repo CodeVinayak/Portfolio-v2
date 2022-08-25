@@ -24,6 +24,13 @@ export function Hero() {
         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
           <p className="small-resume">4 Year of experience in Website Development</p>
         </ScrollAnimation>
+
+
+        <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
+          <BrowserRouter>
+            <NavHashLink smooth to="#contact" className="button">Contact</NavHashLink>
+          </BrowserRouter>
+        </ScrollAnimation>
         
         <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
       <div className="social-media"><a
@@ -56,11 +63,6 @@ export function Hero() {
         </a></div>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
-          <BrowserRouter>
-            <NavHashLink smooth to="#contact" className="button">Contact</NavHashLink>
-          </BrowserRouter>
-        </ScrollAnimation>
       </div>
      
 
