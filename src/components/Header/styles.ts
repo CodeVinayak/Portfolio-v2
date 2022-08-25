@@ -176,7 +176,7 @@ export const Container = styled.header`
       }
 
       &.active{
-        opacity: 0;
+        opacity: 1;
         visibility: visible;
       }
     }
