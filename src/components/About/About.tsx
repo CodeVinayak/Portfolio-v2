@@ -53,19 +53,21 @@ export function About() {
               <img src={reactIcon} alt="React" />
             </ScrollAnimation>
           </div>
-
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.9 * 1000}>
+              <img src={typescriptIcon} alt="Typescript" />
+            </ScrollAnimation>
+          </div>
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
               <img src={vueIcon} alt="Vue" />
             </ScrollAnimation>
           </div>
-
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.5 * 1000}>
-              <img src={jsIcon} alt="JavaScript" />
+            <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
+              <img src={nodeIcon} alt="Node" />
             </ScrollAnimation>
           </div>
-
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
               <img src={htmlIcon} alt="Html" />
@@ -78,18 +80,10 @@ export function About() {
             </ScrollAnimation>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.8* 1000}>
-              <img src={nodeIcon} alt="Node" />
+            <ScrollAnimation animateIn="fadeInUp" delay={0.5 * 1000}>
+              <img src={jsIcon} alt="JavaScript" />
             </ScrollAnimation>
           </div>
-
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.9 * 1000}>
-              <img src={typescriptIcon} alt="Typescript" />
-            </ScrollAnimation>
-          </div>
-
-
         </div>
       </div>
       <div className="about-image">

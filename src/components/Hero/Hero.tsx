@@ -24,6 +24,34 @@ export function Hero(){
             <BrowserRouter>
               <NavHashLink smooth to="#contact" className="button">Contact</NavHashLink>
             </BrowserRouter>
+            <a
+          href="https://www.linkedin.com/in/codevinayak"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={linkedinIcon} alt="Linkedin" />
+        </a>
+        <a
+          href="https://github.com/CodeVinayak/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={githubIcon} alt="GitHub" />
+        </a>
+        <a
+          href="https://api.whatsapp.com/send/?phone=%2B919630576848&text=Hello+Vinayak"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={whatsapp} alt="Whatsapp" />
+        </a>
+        <a
+          href="https://t.me/CodeVinayak"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={telegram} alt="telegram" />
+        </a>
           </ScrollAnimation>
       </div>
       <div className="hero-image">
