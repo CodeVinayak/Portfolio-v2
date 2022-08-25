@@ -28,10 +28,11 @@ export const Container = styled.section`
   }
 // New added
   .social-media{
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
+    padding-top:5rem;
 
     img,span{
       font-size: 3rem;
