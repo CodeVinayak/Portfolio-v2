@@ -75,19 +75,19 @@ export function About() {
           </div>
 
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
+            <ScrollAnimation animateIn="fadeInUp" delay={0.18 * 1000}>
               <img src={cssIcon} alt="Css" />
             </ScrollAnimation>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.9 * 1000}>
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
               <img src={jsIcon} alt="JavaScript" />
             </ScrollAnimation>
           </div>
         </div>
       </div>
       <div className="about-image">
-        <ScrollAnimation animateIn="fadeInRight" delay={0.10 * 1000}>
+        <ScrollAnimation animateIn="fadeInRight" delay={0.20 * 1000}>
           <img src={VinyakSingh} alt="Vinayak Singh" />
 
         </ScrollAnimation>
