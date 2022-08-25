@@ -19,21 +19,21 @@ export function About() {
         <ScrollAnimation animateIn="fadeInLeft">
           <h2>About me</h2>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000}>
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
             My name is Vinayak Singh, I'm a Software Engineer with a great passion for programming. I am passionate about delivering solutions that add to people's lives and at the same time challenge me. Improved my skills as a Front-End and Back-End developer</p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
 
           <p>I develop websites and applications using HTML, CSS, and JavaScript. I am familiar with developing layouts that they provide me. I'm always improving myself with each project I get my hands on.</p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.6 * 1000}>
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
 
           <p>
             I am a dedicated person who pursues his dreams, hardworking and results oriented, I always seek to achieve my best version.</p>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.8 * 1000}>
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
           <h3>Here are my main skills:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
