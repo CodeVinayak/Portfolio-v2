@@ -6,15 +6,14 @@ import { NavHashLink } from "react-router-hash-link"
 import linkedinIcon from '../../assets/linkedin.png'
 import githubIcon from '../../assets/github.png'
 import whatsapp from '../../assets/whatsapp.png'
-import Hello from  '../../assets/Hello.gif'
+import Hello from '../../assets/Hello.gif'
 import telegram from '../../assets/telegram.png'
 export function Hero() {
   return (
     <Container id="home">
       <div className="hero-text">
         <ScrollAnimation animateIn="fadeInUp">
-          <p>Hello<img src={Hello} alt="Hello" />
-            </a> 👋, I'm</p>
+          <p>Hello <img src={Hello} alt="Hello" />👋, I'm</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
           <h1>Vinayak Singh</h1>
@@ -33,33 +32,33 @@ export function Hero() {
         </ScrollAnimation>
       </div>
       <div className="social-media"><a
-            href="https://www.linkedin.com/in/codevinayak"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src={linkedinIcon} alt="Linkedin" />
-          </a>
-            <a
-              href="https://github.com/CodeVinayak/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={githubIcon} alt="GitHub" />
-            </a>
-            <a
-              href="https://api.whatsapp.com/send/?phone=%2B919630576848&text=Hello+Vinayak"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={whatsapp} alt="Whatsapp" />
-            </a>
-            <a
-              href="https://t.me/CodeVinayak"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={telegram} alt="telegram" />
-            </a></div>
+        href="https://www.linkedin.com/in/codevinayak"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img src={linkedinIcon} alt="Linkedin" />
+      </a>
+        <a
+          href="https://github.com/CodeVinayak/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={githubIcon} alt="GitHub" />
+        </a>
+        <a
+          href="https://api.whatsapp.com/send/?phone=%2B919630576848&text=Hello+Vinayak"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={whatsapp} alt="Whatsapp" />
+        </a>
+        <a
+          href="https://t.me/CodeVinayak"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={telegram} alt="telegram" />
+        </a></div>
       <div className="hero-image">
         <ScrollAnimation animateIn="fadeInRight" delay={1 * 1000}>
           <img src={Illustration} alt="Ilustração" />
