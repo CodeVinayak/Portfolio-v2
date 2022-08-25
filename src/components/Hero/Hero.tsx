@@ -32,36 +32,41 @@ export function Hero() {
           </BrowserRouter>
         </ScrollAnimation>
         
-        <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
+        <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
       <div className="social-media"><a
         href="https://www.linkedin.com/in/codevinayak"
         target="_blank"
         rel="noreferrer"
       >
         <img src={linkedinIcon} alt="Linkedin" />
-      </a>
+      </a> </ScrollAnimation>
+      <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
         <a
           href="https://github.com/CodeVinayak/"
           target="_blank"
           rel="noreferrer"
         >
+    
           <img src={githubIcon} alt="GitHub" />
-        </a>
+        </a> </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
         <a
           href="https://api.whatsapp.com/send/?phone=%2B919630576848&text=Hello+Vinayak"
           target="_blank"
           rel="noreferrer"
         >
           <img src={whatsapp} alt="Whatsapp" />
-        </a>
+        </a> </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
+
         <a
           href="https://t.me/CodeVinayak"
           target="_blank"
           rel="noreferrer"
         >
           <img src={telegram} alt="telegram" />
-        </a></div>
-        </ScrollAnimation>
+        </a> </ScrollAnimation></div>
+       
 
       </div>
      
