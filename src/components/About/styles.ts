@@ -28,6 +28,8 @@ export const Container = styled.section`
     margin-bottom: 2rem;
     // border-bottom: 0.2rem solid var(--blue);
     font-size :3rem;
+    margin-top: 2rem;
+    color: var(--green);
   }
 
   h3{
