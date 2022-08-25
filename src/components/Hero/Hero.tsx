@@ -13,7 +13,7 @@ export function Hero() {
     <Container id="home">
       <div className="hero-text">
         <ScrollAnimation animateIn="fadeInUp">
-          <p>Hello <img src={Hello} alt="Hello" />👋, I'm</p>
+          <p>Hello <img src={Hello} alt="Hello" width="20px"/>, I'm</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
           <h1>Vinayak Singh</h1>
