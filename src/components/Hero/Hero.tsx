@@ -3,6 +3,10 @@ import { Container } from "./styles"
 import ScrollAnimation from "react-animate-on-scroll"
 import Illustration from "../../assets/illustration.svg"
 import { NavHashLink } from "react-router-hash-link"
+import linkedinIcon from '../../assets/linkedin.png'
+import githubIcon from '../../assets/github.png'
+import whatsapp from '../../assets/whatsapp.png'
+import telegram from '../../assets/telegram.png'
 export function Hero(){
   return(
     <Container id="home">
