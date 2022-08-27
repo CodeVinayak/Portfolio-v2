@@ -28,7 +28,7 @@ export const Container = styled.section`
     margin-bottom: 2rem;
     // border-bottom: 0.2rem solid var(--blue);
     font-size :3rem;
-    margin-top: 2rem;
+    margin-top: 0rem;
     color: var(--green);
   }
 
