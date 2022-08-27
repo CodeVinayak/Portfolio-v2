@@ -2,13 +2,15 @@ import { Container } from "./styles";
 import VinayakSingh from "../../assets/Vinayak Singh.webp";
 import wordpress from "../../assets/wordpress.svg";
 import shopify from "../../assets/shopify.svg";
-import cssIcon from "../../assets/css-icon.svg";
 import htmlIcon from "../../assets/html-icon.svg";
+import cssIcon from "../../assets/css-icon.svg";
+import sassIcon from "../../assets/sass-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
 import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
 import vueIcon from "../../assets/vue-icon.svg";
+import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 
 
@@ -82,6 +84,11 @@ export function About() {
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
               <img src={jsIcon} alt="JavaScript" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+              <img src={boostrapIcon} alt="bootstrap" />
             </ScrollAnimation>
           </div>
         </div>
