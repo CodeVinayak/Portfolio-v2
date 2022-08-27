@@ -207,11 +207,11 @@ export function Main() {
                   "width": 20,
                   "height": 20
                 },
-                {
-                  "src": vscodeIcon,
-                  "width": 20,
-                  "height": 20
-                },
+                // {
+                //   "src": vscodeIcon,
+                //   "width": 20,
+                //   "height": 20
+                // },
                 {
                   "src": vueIcon,
                   "width": 20,
