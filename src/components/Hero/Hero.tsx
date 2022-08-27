@@ -4,6 +4,8 @@ import ScrollAnimation from "react-animate-on-scroll"
 import Illustration from "../../assets/illustration.svg"
 import { NavHashLink } from "react-router-hash-link"
 import linkedinIcon from '../../assets/linkedin.png'
+import linkedin from '../../assets/linkedin.svg'
+
 import githubIcon from '../../assets/github.png'
 import whatsapp from '../../assets/whatsapp.png'
 import Hello from '../../assets/Hello.gif'
@@ -38,7 +40,7 @@ export function Hero() {
         target="_blank"
         rel="noreferrer"
       >
-        <img src={linkedinIcon} alt="Linkedin" />
+        <img src={linkedin} alt="Linkedin" />
       </a>
         <a
           href="https://github.com/CodeVinayak/"
