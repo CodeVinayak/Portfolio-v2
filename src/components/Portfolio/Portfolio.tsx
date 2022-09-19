@@ -135,7 +135,7 @@ export function Portfolio() {
             </header>
             <div className="body">
               <h3>Manufacturing Industries</h3>
-              <p>This Manufacturing Industrial Website is made by Vinayak Singh for my client to Showchase Product and information about their business in online world.
+              <p>This Manufacturing Industrial Website is made by Vinayak Singh for my client to Showcase Product and information about their business in online world.
               </p>
             </div>
             <footer>
