@@ -52,7 +52,7 @@ export function Portfolio() {
               </div>
             </header>
             <div className="body">
-              <h3>MadeWithLuv - E-Commerce Site</h3>
+              <h3>MadeWithLuv - Ecommerce Site</h3>
               <p>
                 A Website made to Sell Home Decor Products online. Decorating a home requires knowledge and creativity. This site is to help you purchase products to decorate & furnish your homes.
               </p>
@@ -77,7 +77,7 @@ export function Portfolio() {
               </div>
             </header>
             <div className="body">
-              <h3>MedicalBooks - E-Commerce Site</h3>
+              <h3>MedicalBooks - Ecommerce Site</h3>
               <p>
                 A Website made to Sell Medical Books online. Medical students use this site to purchase books to acquire the Knowledge. This site is one stop for all Medical Related Books.
               </p>
