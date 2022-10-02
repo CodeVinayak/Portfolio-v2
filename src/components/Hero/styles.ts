@@ -37,7 +37,7 @@ export const Container = styled.section`
 
     img,span{
       font-size: 3rem;
-      width: 3rem;
+      width: 3.5rem;
     }
   }
 
@@ -70,9 +70,9 @@ export const Container = styled.section`
   }
 
   @media(max-width: 600px){
-    margin-top: 25%;
+    margin-top: 35%;
   }
   @media(max-width: 480px){
-    margin-top: 35%;
+    margin-top: 45%;
   }
 `

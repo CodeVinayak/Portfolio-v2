@@ -9,7 +9,6 @@ export const Container = styled.section`
     font-size: 4rem;
     margin-bottom: 5rem;
   }
-
   .projects{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -44,7 +43,7 @@ export const Container = styled.section`
           gap: 1rem;
         }
         a > img {
-          width: 2.6rem;
+          width: 5.0rem;
         }
       }
       
