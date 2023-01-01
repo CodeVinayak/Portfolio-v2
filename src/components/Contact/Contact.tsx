@@ -19,7 +19,7 @@ export function Contact(){
           <a href="mailto:Hello@vinayaksingh.com">Hello@vinayaksingh.com</a>
         </div>
         <div>
-          <img src={phoneIcon} alt="Phone No" />
+        <a href="tel:+919630576848"><img src={phoneIcon} alt="Phone No" /></a>
           <a href="tel:+919630576848">(+91) 9630576848</a>
         </div>  
       </div>
