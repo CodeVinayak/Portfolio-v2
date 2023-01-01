@@ -64,7 +64,7 @@ export function Form() {
         <ValidationError prefix="Email" field="email" errors={state.errors} />
         <textarea
           required
-          placeholder="Leave your message"
+          placeholder="Send a message to get started."
           id="message"
           name="message"
           onChange={(e) => {
