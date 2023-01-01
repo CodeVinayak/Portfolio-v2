@@ -10,7 +10,8 @@ export function Contact(){
     <Container id="contact">
       <header>
         <h2>Contact</h2>
-        <p>Ready to get started on your project? Contact me now for a Free consultation.</p>
+        <p>Ready to get started on your project? </p>
+        <p>Contact me now for a Free consultation.</p>
       </header>
       <div className="contacts">
         <div>
