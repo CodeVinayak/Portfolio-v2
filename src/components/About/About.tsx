@@ -23,16 +23,16 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            My name is Vinayak Singh, I'm a Software Engineer with a great passion for programming. I am passionate about delivering solutions that add to people's lives and at the same time challenge me. Improved my skills as a Front-End and Back-End developer</p>
+            Hi there! I'm Vinayak, a website developer with a passion for creating custom online experiences for my clients. With 3 years of experience in the industry and a skill set including HTML, CSS, JavaScript, and React, I have the tools to bring any website vision to life.
+          </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
-
-          <p>I develop websites and applications using HTML, CSS, and JavaScript. I am familiar with developing layouts that they provide me. I'm always improving myself with each project I get my hands on.</p>
+          <p>
+            But my services go beyond just custom development - I'm also proficient in using CMS systems like WordPress and Shopify, making it easy for my clients to take control of their own websites and keep them up to date.</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
-
           <p>
-            I am a dedicated person who pursues his dreams, hardworking and results oriented, I always seek to achieve my best version.</p>
+            So if you're in need of a new website or just looking to revamp your current online presence, I'd love to chat and see how I can help. Let's bring your website dreams to reality together!</p>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
@@ -81,7 +81,7 @@ export function About() {
               <img src={cssIcon} alt="Css" />
             </ScrollAnimation>
           </div>
-          
+
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
               <img src={boostrapIcon} alt="bootstrap" />
