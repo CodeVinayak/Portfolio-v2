@@ -28,7 +28,7 @@ export const Container = styled.section`
       align-items: center;
       justify-content: center;
       width: 50%;
-      max-width: 40rem;
+      max-width: 30rem;
       gap: 2rem;
       background-color: var(--green);
       border-radius: 1.4rem;
@@ -53,7 +53,7 @@ export const Container = styled.section`
 
   @media(max-width: 960px){
     .contacts{
-      flex-direction: column;
+    
       div{
         width: 100%;
         flex-direction: column;
@@ -62,3 +62,14 @@ export const Container = styled.section`
   }
   
 `
+/* old one - 2/1/2023 - 
+@media(max-width: 960px){
+    .contacts{
+      flex-direction: column;
+      div{
+        width: 100%;
+        flex-direction: column;
+      }
+    }
+
+*/
