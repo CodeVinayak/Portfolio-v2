@@ -53,10 +53,10 @@ export const Container = styled.section`
 
   @media(max-width: 960px){
     .contacts{
-    
+      flex-direction: column;
       div{
         width: 100%;
-        flex-direction: column;
+        
       }
     }
   }
