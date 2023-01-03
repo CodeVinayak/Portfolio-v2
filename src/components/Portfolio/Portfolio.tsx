@@ -54,7 +54,7 @@ export function Portfolio() {
             <div className="body">
               <h3>MadeWithLuv - Ecommerce Site</h3>
               <p>
-              This website sells home decor products and helps people decorate their homes. It is easy to find what you need, whether it's furniture or decorations. The site is useful for people who want to make their homes look nice and need some help
+              This website sells home decor products and helps people decorate their homes. It is easy to find what you need, whether it's furniture or decorations. The site is useful for people who want to make their homes look nice and need some help.
               </p>
             </div>
             <footer>
