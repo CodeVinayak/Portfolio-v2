@@ -203,7 +203,7 @@ export function Portfolio() {
             <div className="body">
               <h3>Desktop Spotify Site</h3>
               <p>
-                A modern Web-Based music player made using ReactJS. Clean UI with dark mode, High-quality online music streaming with no lag. Basically it is a small clone of Spotify Desktop site.
+              A music player for the web using ReactJS. It has a nice interface with a dark mode option, and it can stream music online very well without any problems. It is similar to the Spotify Desktop site, but it is smaller and simpler to use.
               </p>
             </div>
             <footer>
