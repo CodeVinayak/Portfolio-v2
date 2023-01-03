@@ -27,7 +27,7 @@ export function Portfolio() {
             <div className="body">
               <h3>Demo - Ecommerce Site + App</h3>
               <p>
-                The Website is made with the help of Wordpress and woocommerce. The Android app is made with the help of Java that converted website into app.
+              Our ecommerce site and app are expertly crafted using Wordpress and woocommerce for the website and Java for the Android app. These technologies ensure that our shoppers have a smooth and enjoyable experience while browsing and purchasing products.
               </p>
             </div>
             <footer>
