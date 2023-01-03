@@ -128,7 +128,7 @@ export function Portfolio() {
             <div className="body">
               <h3>Dr.Rohit Damor - Online Appointment Booking Site</h3>
               <p>
-                A Website made to Book an Online Appointment. Peoples can Schedule an Appointment with you in under a Minute. This type of site is helpful to get online appointment bookings.
+              This website allows people to easily book appointments with you online. It takes just a minute to schedule a meeting. This kind of site is helpful for booking appointments and not missing any potential clients. You should try this website to see how convenient and efficient it is.
               </p>
             </div>
             <footer>
