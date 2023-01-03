@@ -27,7 +27,7 @@ export function Portfolio() {
             <div className="body">
               <h3>Demo - Ecommerce Site + App</h3>
               <p>
-              Our ecommerce site and app are expertly crafted using Wordpress and woocommerce for the website and Java for the Android app. These technologies ensure that our shoppers have a smooth and enjoyable experience while browsing and purchasing products.
+              This ecommerce site and app are well-made using Wordpress and woocommerce for the website and Java for the app. These tools make sure that shoppers have a good time using the site and app and buying things. They make it easy to shop and have fun doing it.
               </p>
             </div>
             <footer>
@@ -54,7 +54,7 @@ export function Portfolio() {
             <div className="body">
               <h3>MadeWithLuv - Ecommerce Site</h3>
               <p>
-                A Website made to Sell Home Decor Products online. Decorating a home requires knowledge and creativity. This site is to help you purchase products to decorate & furnish your homes.
+              This website sells home decor products and helps people decorate their homes. It is easy to find what you need, whether it's furniture or decorations. The site is useful for people who want to make their homes look nice and need some help
               </p>
             </div>
             <footer>
@@ -152,7 +152,7 @@ export function Portfolio() {
             <div className="body">
               <h3>Mitul Industries - Manufacturing Industries Site</h3>
               <p>
-                A Manufacturing Industry site to showcase your Products to get more customers & Information about your Business Online. Making a product is just an activity, making a profit on a product is the achievement. This site can help you to achieve more Profit in business.
+              This manufacturing industry website shows off products and helps the business get more customers and information online. Making products is important, but making money from them is the goal. This site can help the business make more profit.
               </p>
             </div>
             <footer>
@@ -176,7 +176,7 @@ export function Portfolio() {
             <div className="body">
               <h3>Mayatmaj - Film Production Site</h3>
               <p>
-                A Post Production | Virtual Production | Video Marketing - Agency Website to showcase their previous clients works,Reviews and get more new clients.
+              This agency website promotes post production, virtual production, and video marketing services. It shows previous client work and reviews to get more business. If you need help with production, this website can give you information and connect you with the right people.
               </p>
             </div>
             <footer>
