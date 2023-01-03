@@ -232,7 +232,7 @@ export function Portfolio() {
             <div className="body">
               <h3>My Portfolio V1 Site</h3>
               <p>
-                An alternate old version 1 of my portfolio site. It was created back in 2019-21 to showcase my skills & previous website work using screenshots.
+              This is an older version of my portfolio site, created between 2019-2021 to display my web design skills and previous projects. It includes beautiful screenshots of my work, demonstrating my dedication and proficiency in the field.
               </p>
             </div>
             <footer>
