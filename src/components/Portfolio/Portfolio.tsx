@@ -79,7 +79,7 @@ export function Portfolio() {
             <div className="body">
               <h3>MedicalBooks - Ecommerce Site</h3>
               <p>
-                A Website made to Sell Medical Books online. Medical students use this site to purchase books to acquire the Knowledge. This site is one stop for all Medical Related Books.
+              This website sells medical books online and is popular with medical students. Medical students use it to buy books and acquire knowledge. The site has all kinds of medical books in one place.
               </p>
             </div>
             <footer>
