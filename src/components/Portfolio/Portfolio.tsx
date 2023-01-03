@@ -104,7 +104,7 @@ export function Portfolio() {
             <div className="body">
               <h3>SmartCorners - Real Estate Properties Site</h3>
               <p>
-                A Real estate properties site to showcase your Land Properties Projects. It brings convenience to buyers and exposure to sellers. Buyers can view hundreds of property images, videos, and features before they ever need to schedule a live tour.
+              This real estate site displays land properties and helps buyers and sellers. Buyers can see lots of pictures, videos, and details about properties before visiting in person. It makes it easier for buyers to find what they want and helps sellers get more attention.
               </p>
             </div>
             <footer>
