@@ -152,7 +152,7 @@ export function Portfolio() {
             <div className="body">
               <h3>Mitul Industries - Manufacturing Industries Site</h3>
               <p>
-              This manufacturing industry website shows off products and helps the business get more customers and information online. Making products is important, but making money from them is the goal. This site can help the business make more profit.
+              This manufacturing industry website shows off products and helps the business get more customers and information online. Making products is important but making money from them is the goal. This site can help the business make more profit.
               </p>
             </div>
             <footer>
