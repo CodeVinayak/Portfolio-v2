@@ -4,7 +4,7 @@
  
 This project was created with CRA (Create React App)
 
-This is my website to introduce myself, here I put my skills, portfolio, and contact details.
+Get to Know Me and My Skill | My Portfolio Website Has All the Contact Details.
 
 ## Technologies used:
 - React
