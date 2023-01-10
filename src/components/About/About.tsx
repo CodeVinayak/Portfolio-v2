@@ -1,10 +1,9 @@
 import { Container } from "./styles";
-import VinayakSingh from "../../assets/Vinayak_Singh.webp";
+import VinayakSingh from "../../assets/Vinayak_Singh.jpg";
 import wordpress from "../../assets/wordpress.svg";
 import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
-import sassIcon from "../../assets/sass-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
 import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
