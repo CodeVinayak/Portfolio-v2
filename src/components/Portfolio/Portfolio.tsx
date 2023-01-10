@@ -4,6 +4,7 @@ import DownloadApp from '../../assets/download.png'
 import externalLink from "../../assets/external-link.svg"
 import ScrollAnimation from "react-animate-on-scroll";
 
+
 export function Portfolio() {
   return (
     <Container id="portfolio">
