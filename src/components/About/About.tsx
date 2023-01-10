@@ -1,5 +1,5 @@
 import { Container } from "./styles";
-import VinayakSingh from "public\Images\Vinayak_Singh.jpg";
+import VinayakSingh from "../Images/Vinayak_Singh.jpg";
 import wordpress from "../../assets/wordpress.svg";
 import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";

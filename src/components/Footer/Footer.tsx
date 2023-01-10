@@ -1,5 +1,4 @@
 import { Container } from './styles'
-
 import reactIcon from '../../assets/react-icon.svg'
 import linkedin from '../../assets/linkedin.svg'
 import githubIcon from '../../assets/github.svg'
