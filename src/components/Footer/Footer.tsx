@@ -5,7 +5,7 @@ import linkedin from '../../assets/linkedin.svg'
 import githubIcon from '../../assets/github.svg'
 import whatsapp from '../../assets/whatsapp.svg'
 import telegram from '../../assets/telegram.svg'
-// import instagramIcon from '../../assets/instagram.png'
+import instagramIcon from '../../assets/instagram.svg'
 // import discordIcon from '../../assets/discord.png'
 
 export function Footer() {
@@ -52,13 +52,13 @@ export function Footer() {
           <img src={telegram} alt="telegram" />
         </a>
         <a
-          href="https://www.instagram.com/vinayaksingh.in/"
+          href="https://www.instagram.com/vinayaksingh.in"
           target="_blank"
           rel="noreferrer"
         >
           <img src={instagramIcon} alt="Instagram" />
         </a>
-      
+     
       </div>
     </Container>
   )
