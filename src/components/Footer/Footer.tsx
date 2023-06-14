@@ -58,13 +58,7 @@ export function Footer() {
         >
           <img src={instagramIcon} alt="Instagram" />
         </a>
-        {/* <a
-          href="https://discord.com/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={discordIcon} alt="Discord" />
-        </a> */}
+      
       </div>
     </Container>
   )
