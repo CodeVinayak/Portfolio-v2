@@ -11,9 +11,9 @@ import telegram from '../../assets/telegram.svg'
 export function Footer() {
   return (
     <Container className="footer">
-      <a href="/" className="logo">
-        <span>Vinayak</span>
-        <span>Singh</span>
+      <a href="www.vinayaksingh.in" className="logo">
+        <span>www.Vinayak</span>
+        <span>Singh.in</span>
       </a>
       <div>
         <p>
@@ -51,14 +51,13 @@ export function Footer() {
         >
           <img src={telegram} alt="telegram" />
         </a>
-        {/* <a
-          href="https://www.instagram.com"
+        <a
+          href="https://www.instagram.com/vinayaksingh.in/"
           target="_blank"
           rel="noreferrer"
         >
           <img src={instagramIcon} alt="Instagram" />
-        </a> */}
-
+        </a>
         {/* <a
           href="https://discord.com/"
           target="_blank"
