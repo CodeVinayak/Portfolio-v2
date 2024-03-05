@@ -1,7 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
-
   :root{
     --pink: #E31F71;
     --black: #212121;
@@ -56,8 +55,6 @@ export const GlobalStyle = createGlobalStyle`
 
     }
   }
-
-
 
   ul, li {
     text-decoration: none;
@@ -118,6 +115,4 @@ export const GlobalStyle = createGlobalStyle`
     //   color: var(--green);
     // }
   }
-  
-
 `
