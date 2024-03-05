@@ -1,5 +1,4 @@
 import { Container } from './styles'
-
 import reactIcon from '../../assets/react-icon.svg'
 import linkedin from '../../assets/linkedin.svg'
 import githubIcon from '../../assets/github.svg'
@@ -21,7 +20,6 @@ export function Footer() {
           {/* <span>❤️</span> */}
         </p>
       </div>
-
       <div className="social-media">
         <a
           href="https://www.linkedin.com/in/codevinayak"
@@ -58,7 +56,6 @@ export function Footer() {
         >
           <img src={instagramIcon} alt="Instagram" />
         </a>
-     
       </div>
     </Container>
   )
