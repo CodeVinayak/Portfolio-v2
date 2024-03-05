@@ -30,7 +30,7 @@ export const Container = styled.header`
       transition: filter 0.25s;
 
       &.button{
-        padding: 0.6rem 5rem;
+        padding: 0.6rem 2rem;
       }
 
       &:hover{
