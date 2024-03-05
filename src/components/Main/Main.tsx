@@ -1,12 +1,9 @@
 import Particles from "react-tsparticles"
-import { Container } from "./styles"
-import { Hero } from "../Hero/Hero"
+import { Container } from "./styles";
+import { Hero } from "../Hero/Hero";
 import { About } from "../About/About";
 import { Contact } from "../Contact/Contact";
 import { Project } from "../Project/Project";
-
-
-
 import wordpress from "../../assets/wordpress.svg";
 import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
@@ -21,7 +18,6 @@ import boostrapIcon from "../../assets/bootstrap-icon.svg";
 
 export function Main() {
   return (
-
     <Container>
       <Particles
         id="tsparticles"
