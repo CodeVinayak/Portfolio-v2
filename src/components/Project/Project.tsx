@@ -10,8 +10,6 @@ export function Project() {
     <Container id="project">
       <h2>My Projects</h2>
       <div className="projects">
-
-
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
@@ -84,7 +82,6 @@ export function Project() {
               <p>
                 Developed a highly accurate credit risk classification model using XGBoost, achieving 100% precision, recall, and F1-scores for predicting loan defaults.Implemented rigorous data preprocessing, feature engineering, and hyperparameter tuning on imbalanced credit risk data, employing ensemble methods, cross-validation, and model interpretation techniques.
               </p>
-
             </div>
             <footer>
               <ul className="tech-list">
