@@ -26,7 +26,7 @@ export function Project() {
               <h3>Serverless Voting Application for Programming Languages</h3>
               <p> Developed a serverless voting app using React, AWS Lambda, API Gateway, and DynamoDB, enabling users to view programming languages, cast votes, and access details through an interactive UI, leveraging serverless architecture for scalability and cost-efficiency. </p>
             </div>
-            <footer> <ul className="tech-list"> <li>React</li> <li>AWS Lambda</li> <li>API Gateway</li> <li>DynamoDB</li> </ul> </footer>
+            <footer> <ul className="tech-list"> <li>AWS Lambda</li> <li>API Gateway</li> <li>DynamoDB</li> </ul> </footer>
           </div>
         </ScrollAnimation>
 
@@ -50,7 +50,6 @@ export function Project() {
             <footer>
               <ul className="tech-list">
                 <li>Streamlit</li>
-                <li>GPT-3.5</li>
                 <li>PyPDF2</li>
                 <li>LangChain</li>
               </ul>
@@ -83,7 +82,6 @@ export function Project() {
             <footer>
               <ul className="tech-list">
                 <li>XGBoost</li>
-                <li>Scikit-learn</li>
                 <li>Pandas</li>
                 <li>Matplotlib</li>
               </ul>
