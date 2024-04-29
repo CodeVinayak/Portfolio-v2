@@ -82,8 +82,9 @@ export function Project() {
             <div className="body">
               <h3>Credit Risk Analysis Project</h3>
               <p>
-                Developed a highly accurate credit risk classification model using advanced techniques such as XGBoost, achieving 100% precision, recall, and F1-scores for predicting loan defaults. Implemented rigorous data preprocessing, feature engineering, and hyperparameter tuning to optimize model performance on imbalanced credit risk data. Employed ensemble methods, cross-validation, and model interpretation techniques to build a robust and interpretable credit risk assessment solution.
+              Developed a highly accurate credit risk classification model using XGBoost, achieving 100% precision, recall, and F1-scores for predicting loan defaults.Implemented rigorous data preprocessing, feature engineering, and hyperparameter tuning on imbalanced credit risk data, employing ensemble methods, cross-validation, and model interpretation techniques.
               </p>
+              
             </div>
             <footer>
               <ul className="tech-list">
