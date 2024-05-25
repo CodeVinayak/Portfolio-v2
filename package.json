@@ -12,7 +12,7 @@
     "@types/react": "^17.0.20",
     "@types/react-dom": "^17.0.9",
     "react": "^17.0.2",
-    "react-animate-on-scroll": "^2.1.5",
+    "react-animate-on-scroll": "^2.1.9",
     "react-dom": "^17.0.2",
     "react-google-recaptcha": "^2.1.0",
     "react-router-dom": "^6.2.1",

@@ -1,10 +1,10 @@
 import { createGlobalStyle } from "styled-components";
-
+import space from '../../src/assets/space.webp'
 export const GlobalStyle = createGlobalStyle`
   :root{
-    --pink: #E31F71;
+    --pink: #bb7ff4;
     --black: #212121;
-    --green: #23ce6b;
+    --green: #6e00c4;
     --blue: #016fb9;
     scroll-padding-top: 10rem;
 
@@ -13,6 +13,7 @@ export const GlobalStyle = createGlobalStyle`
       body{
         transition: 0.5s;
         background-color: #f5f5f5;
+        
         color: var(--black);
       }
 
@@ -34,11 +35,13 @@ export const GlobalStyle = createGlobalStyle`
           background-color: rgba(555,555,555,0);
         }
       }
+     
 
       footer.footer{
         transition: 0.5s;
-        background-color: rgba(0,0,0,0.1);
+        background-color: #f5f5f550;
         color: var(--black);
+        backdrop-filter: blur(10px);
       }
 
       form{
@@ -77,6 +80,11 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 1.6rem;
     -webkit-font-smoothing: antialiased;
     background-color: var(--black);
+    // background-image: url(${space});
+   
+    // background-size: cover; /* Ajusta el tamaño para que cubra toda la pantalla */
+    // background-position: center; /* Centra la imagen */
+    // background-repeat: no-repeat; /* Evita la repetición de la imagen */
     color: #FFFF;
   }
 
@@ -115,4 +123,5 @@ export const GlobalStyle = createGlobalStyle`
     //   color: var(--green);
     // }
   }
+
 `

@@ -2,7 +2,7 @@ import { Container } from './styles'
 import { BrowserRouter as Router } from 'react-router-dom'
 import { NavHashLink, HashLink } from 'react-router-hash-link'
 import { useState } from 'react'
-import Resume from '../../assets/Vinayak_Kumar_Singh_Resume.pdf'
+import cv from '../../assets/cv.pdf'
 export function Header() {
   const [isActive, setActive] = useState(false)
   function toggleTheme() {
@@ -16,8 +16,8 @@ export function Header() {
     <Container className="header-fixed">
       <Router>
         <HashLink smooth to="#home" className="logo">
-          <span>{"<Vinayak "}</span>
-          <span>{" Singh/>"}</span>
+          <span>{"< "}</span>
+          <span>{" />"}</span>
         </HashLink>
         <input
           onChange={toggleTheme}
@@ -29,19 +29,19 @@ export function Header() {
         <label htmlFor="switch">Toggle</label>
         <nav className={isActive ? 'active' : ''}>
           <NavHashLink smooth to="#home" onClick={closeMenu}>
-            Home
+            Inicio
           </NavHashLink>
           <NavHashLink smooth to="#about" onClick={closeMenu}>
-            About me
+            Sobre mi 
           </NavHashLink>
           <NavHashLink smooth to="#project" onClick={closeMenu}>
-            Project
+            Proyectos
           </NavHashLink>
           <NavHashLink smooth to="#contact" onClick={closeMenu}>
-            Contact
+            Contacto
           </NavHashLink>
-          <a href={Resume} download className="button">
-            Resume
+          <a href={cv} download className="button">
+         CV
           </a>
         </nav>
         <div

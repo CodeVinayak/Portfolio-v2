@@ -9,6 +9,7 @@ export const Container = styled.section`
     font-size: 4rem;
     margin-bottom: 3rem;
   }
+  
   .projects{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -18,7 +19,7 @@ export const Container = styled.section`
     overflow: hidden;
 
     .project{
-      padding: 2rem 1.8rem;
+      padding: 2rem ;
       background-color: #2b2b2b;
       border-radius: 1.2rem;
       transition: 0.25s;
@@ -36,7 +37,7 @@ export const Container = styled.section`
         align-items: center;
         justify-content: space-between;
         color: var(--blue);
-        margin-bottom: 3.6rem;
+        margin-bottom: 
         .project-links{
           display: flex;
           align-items: center;
@@ -46,7 +47,9 @@ export const Container = styled.section`
           width: 5.0rem;
         }
       }
-      
+      .li{
+        color:#bb7ff4
+      }
       h3{
         margin-bottom: 2rem;
       }
@@ -71,7 +74,9 @@ export const Container = styled.section`
           align-items: center;
           gap: 2rem;
           font-size: 1.4rem;
-          opacity: 0.6;
+          opacity: 0.4;
+          flex-wrap:wrap;
+          
         }
       }
 
@@ -84,9 +89,19 @@ export const Container = styled.section`
     }
   }
 
-  @media (max-width: 740px){
+  @media (max-width: 700px){
     .projects{
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr ;
+      
     }
+    
+  .project {
+    width: 100%; 
+    padding: 2rem ;
+    
+   
+  }
+  
+ 
   }
 `

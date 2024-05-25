@@ -20,7 +20,7 @@ export const Container = styled.section`
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 1rem;
     place-items: center;
     margin-top: 1.5rem;
     div{
@@ -28,18 +28,24 @@ export const Container = styled.section`
       align-items: center;
       justify-content: center;
       width: 50%;
-      max-width: 30rem;
+      max-width:30rem;
       gap: 2rem;
       background-color: var(--green);
       border-radius: 1.4rem;
-      padding: 1.6rem 2.8rem;
+      padding: 1rem ;
       transition: background-color 0.25s;
       img{
-        width: 4rem;
+        width: 2.5rem;
+        
       }
       a{
-        color: var(--black);
+        color: white;
         font-weight: 500;
+        display: flex;
+      align-items: center;
+      justify-content: center;
+      gap:1rem;
+        
       }
       &:hover{
         background-color: var(--pink);
