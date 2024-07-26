@@ -8,6 +8,7 @@ import githubIcon from '../../assets/github.svg'
 import whatsapp from '../../assets/whatsapp.svg'
 import Hello from '../../assets/Hello.gif'
 import telegram from '../../assets/telegram.svg'
+import Typed from "../Typed/Typed"
 export function Hero() {
   return (
     <Container id="home">
@@ -16,11 +17,12 @@ export function Hero() {
           <p>Hello <img src={Hello} alt="Hello" width="20px"/>, I'm</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
-          <h1>Vinayak Singh</h1>
+          <h1>Hamid_Hussain</h1>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
+        <Typed/> 
+        {/* <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
           <h3>React Native Developer</h3>
-        </ScrollAnimation>
+        </ScrollAnimation> */}
         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
           <p className="small-resume">1 Years of Experience</p>
         </ScrollAnimation>
