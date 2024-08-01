@@ -1,5 +1,5 @@
 import { Container } from "./styles";
-import VinayakSingh from "../../assets/VinayakSingh.png";
+import HamidHussain from "../../assets/HamidHussain.png";
 import wordpress from "../../assets/wordpress.svg";
 import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
@@ -88,9 +88,9 @@ export function About() {
           </div>
         </div>
       </div>
-      <div className="about-image">
-        <ScrollAnimation animateIn="fadeInRight" delay={0.20 * 1000}>
-          <img src={VinayakSingh} alt="Vinayak Singh" />
+      <div>
+        <ScrollAnimation animateIn="fadeInRight" delay={0.20 * 1000} className="about-image">
+          <img src={HamidHussain} alt="Hamid Hussain" />
         </ScrollAnimation>
       </div>
     </Container>

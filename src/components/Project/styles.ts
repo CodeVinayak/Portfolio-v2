@@ -63,7 +63,18 @@ export const Container = styled.section`
           }
         }
       }
-
+      .cardText {
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 3; /* Change this to the number of lines you want to show */
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: normal;
+          position: relative;
+          max-height: calc(1.2em * 3); /* Adjust '3' to the number of lines you want */
+          line-height: 1.2em;
+          // border:2px solid red;
+      }
       footer{
         margin-top: auto;
         .tech-list{

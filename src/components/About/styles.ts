@@ -46,9 +46,9 @@ export const Container = styled.section`
   
 
   .about-image{
-    text-align: center;
    img{
-     margin-top: 2rem;
+    border:2px solid blue;
+    //  margin-top: 2rem;
      width: 75%;
      filter: grayscale(0);
      transition: filter 0.5s;
