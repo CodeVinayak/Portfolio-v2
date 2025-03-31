@@ -46,7 +46,7 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={550}>
           <div className="experience">
-             <h3>Experience:</h3><h4>Software Developer Intern</h4>
+             <h3>Experience:</h3><h4>Software Developer</h4>
             <p>KIWIS AND BROWNIES IT SOLUTIONS | October 2024 - Present</p>
             <p>Bangalore, India</p>
           </div>
