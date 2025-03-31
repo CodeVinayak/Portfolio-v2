@@ -36,6 +36,22 @@ export function About() {
             I also work with CMS platforms like WordPress and Shopify to streamline content management.
           </p>
         </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInLeft" delay={400}>
+          <div className="education">
+            <h3>Education:</h3>
+            <h4> Master of Computer Applications (MCA)</h4>
+            <p>Vellore Institute of Technology, Chennai | July 2023 - Present</p>
+            <p>8.09 CGPA</p>
+          </div>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInLeft" delay={550}>
+          <div className="experience">
+             <h3>Experience:</h3><h4>Software Developer Intern</h4>
+            <p>KIWIS AND BROWNIES IT SOLUTIONS | October 2024 - Present</p>
+            <p>Bangalore, India</p>
+          </div>
+        </ScrollAnimation>
+
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
           <h3>Here are my main skills:</h3>
         </ScrollAnimation>
