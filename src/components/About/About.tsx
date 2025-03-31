@@ -46,12 +46,12 @@ export function About() {
             </ScrollAnimation>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.10 * 1000}>
+            <ScrollAnimation animateIn="fadeInUp" delay={0.11 * 1000}>
               <img src={java} alt="java" />
             </ScrollAnimation>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+            <ScrollAnimation animateIn="fadeInUp" delay={0.12 * 1000}>
               <img src={jsIcon} alt="JavaScript" />
             </ScrollAnimation>
           </div>
@@ -71,34 +71,34 @@ export function About() {
             </ScrollAnimation>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.10 * 1000}>
+            <ScrollAnimation animateIn="fadeInUp" delay={0.16 * 1000}>
               <img src={wordpress} alt="Wordpress" />
             </ScrollAnimation>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.12 * 1000}>
+            <ScrollAnimation animateIn="fadeInUp" delay={0.17 * 1000}>
               <img src={shopify} alt="shopify" />
             </ScrollAnimation>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.17 * 1000}>
+            <ScrollAnimation animateIn="fadeInUp" delay={0.18 * 1000}>
               <img src={htmlIcon} alt="Html" />
             </ScrollAnimation>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.18 * 1000}>
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
               <img src={cssIcon} alt="Css" />
             </ScrollAnimation>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+            <ScrollAnimation animateIn="fadeInUp" delay={0.20 * 1000}>
               <img src={boostrapIcon} alt="bootstrap" />
             </ScrollAnimation>
           </div>
         </div>
       </div>
       <div className="about-image">
-        <ScrollAnimation animateIn="fadeInRight" delay={0.20 * 1000}>
+        <ScrollAnimation animateIn="fadeInRight" delay={0.21 * 1000}>
           <img src={VinayakSingh} alt="Vinayak Singh" />
         </ScrollAnimation>
       </div>
