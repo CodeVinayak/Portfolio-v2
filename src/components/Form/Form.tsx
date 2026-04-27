@@ -10,6 +10,9 @@ export function Form() {
   const [validEmail, setValidEmail] = useState(false)
   const [isHuman, setIsHuman] = useState(false)
   const [message, setMessage] = useState('')
+  const recaptchaSiteKey = process.env.REACT_APP_RECAPTCHA_SITE_KEY
+  const requiresCaptcha = Boolean(recaptchaSiteKey)
+
   function verifyEmail(email: string) {
     if (validator.isEmail(email)) {
       setValidEmail(true)
@@ -72,15 +75,23 @@ export function Form() {
           field="message"
           errors={state.errors}
         />
-        <ReCAPTCHA
-          sitekey="6Lfj9NYfAAAAAP8wPLtzrsSZeACIcGgwuEIRvbSg"
-          onChange={(e) => {
-            setIsHuman(true)
-          }}
-        ></ReCAPTCHA>
+        {requiresCaptcha ? (
+          <ReCAPTCHA
+            sitekey={recaptchaSiteKey!}
+            onChange={(token) => {
+              setIsHuman(Boolean(token))
+            }}
+            onExpired={() => {
+              setIsHuman(false)
+            }}
+            onErrored={() => {
+              setIsHuman(false)
+            }}
+          />
+        ) : null}
         <button
           type="submit"
-          disabled={state.submitting || !validEmail || !message || !isHuman}
+          disabled={state.submitting || !validEmail || !message || (requiresCaptcha && !isHuman)}
         >
           Submit
         </button>

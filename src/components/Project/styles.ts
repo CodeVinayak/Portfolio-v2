@@ -11,7 +11,7 @@ export const Container = styled.section`
   }
   .projects{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     gap: 2rem;
     padding: 1rem;
@@ -26,9 +26,11 @@ export const Container = styled.section`
       flex-direction: column;
       height: 100%;
       color: #FFF;
+      border: 1px solid transparent;
       &:hover{
         transform: translateY(-5px);
         background-color: var(--pink);
+        border-color: rgba(255,255,255,0.12);
       }
 
       header{
@@ -37,6 +39,14 @@ export const Container = styled.section`
         justify-content: space-between;
         color: var(--blue);
         margin-bottom: 3.6rem;
+
+        .view-project{
+          color: rgba(255,255,255,0.8);
+          font-size: 1.3rem;
+          text-transform: uppercase;
+          letter-spacing: 0.12rem;
+        }
+
         .project-links{
           display: flex;
           align-items: center;
@@ -69,6 +79,7 @@ export const Container = styled.section`
         .tech-list{
           display: flex;
           align-items: center;
+          flex-wrap: wrap;
           gap: 2rem;
           font-size: 1.4rem;
           opacity: 0.6;
@@ -80,7 +91,7 @@ export const Container = styled.section`
 
   @media (max-width: 960px){
     .projects{
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr;
     }
   }
 
